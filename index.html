@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>My Agenda</h1>
+    <p>My daily planner for the day</p>
+
+    <div class="grid">
+        <div class="gridItem">
+            <h4>Enter Tasks</h4>
+            <form id="myForm">
+                <label>Task</label>
+                <textarea name="" id="task" cols="30" rows="10"></textarea>
+                <button type="submit" id="add">Add Task</button>
+            </form>
+        </div>
+    
+        <div class="gridItem">
+            <h4>Tasks List</h4>
+            <ul id="list">
+
+            </ul>
+            <button id="clear">Clear Task</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
